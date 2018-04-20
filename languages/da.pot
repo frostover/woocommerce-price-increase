@@ -1,0 +1,63 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: Codeable Nathan Corbin\n"
+"POT-Creation-Date: 2018-04-20 12:55-0500\n"
+"PO-Revision-Date: 2018-04-20 12:57-0500\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: codeable-nathan-corbin.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: da\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/class-codeable-nathan-corbin-wc-settings.php:49
+msgid "Price Increase"
+msgstr "Prisforhøjelse"
+
+#: admin/partials/codeable-nathan-corbin-product-tab.php:23
+msgid "Activate price increase?"
+msgstr "Aktiver prisforhøjelse?"
+
+#: admin/partials/codeable-nathan-corbin-product-tab.php:30
+msgid "Cart increase amount (%)"
+msgstr "Vogn øge mængden (%)"
+
+#: admin/partials/codeable-nathan-corbin-product-tab.php:32
+msgid "The cart total will be increased by this amount."
+msgstr "Indkøbsvogn alt vil blive øget med dette beløb."
+
+#: public/class-codeable-nathan-corbin-public.php:80
+msgid "Upcharge ( "
+msgstr "Upcharge ("
+
+#. Plugin Name of the plugin/theme
+msgid "Codeable Nathan Corbin"
+msgstr "Codeable Nathan Corbin"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://nathanonline.us"
+msgstr "http://nathanonline.us"
+
+#. Description of the plugin/theme
+msgid ""
+"This WordPress plugin integrates with WooCommerce and allows specific "
+"products to trigger a price increase to the cart total."
+msgstr ""
+"Dette WordPress-plugin integreres med WooCommerce og tillader "
+"specifikke produkter at udløse en prisstigning til vognens samlede."
+
+#. Author of the plugin/theme
+msgid "Nathan Corbin"
+msgstr "Nathan Corbin"
