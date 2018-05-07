@@ -1,5 +1,4 @@
 <?php
-
 namespace CodeableNathanCorbin;
 
 /**
@@ -68,8 +67,8 @@ class Codeable_Nathan_Corbin_Plugin {
 	 * @since    1.0.0
 	 */
 	public function __construct() {
-		register_activation_hook( __FILE__, 'activate_codeable_nathan_corbin' );
-		register_deactivation_hook( __FILE__, 'deactivate_codeable_nathan_corbin' );
+		register_activation_hook( __FILE__, array($this, 'activate_codeable_nathan_corbin'));
+		register_deactivation_hook( __FILE__, array($this, 'deactivate_codeable_nathan_corbin' ));
 
 		// Assign the private plugin and begin execution of the plugin.
 		$this->plugin = new Codeable_Nathan_Corbin();
@@ -80,7 +79,7 @@ class Codeable_Nathan_Corbin_Plugin {
 	 * The code that runs during plugin activation.
 	 * This action is documented in includes/class-codeable-nathan-corbin-activator.php
 	 */
-	function activate_codeable_nathan_corbin() {
+	public function activate_codeable_nathan_corbin() {
 		require_once plugin_dir_path( __FILE__ ) . 'includes/class-codeable-nathan-corbin-activator.php';
 		Codeable_Nathan_Corbin_Activator::activate();
 	}
@@ -89,7 +88,7 @@ class Codeable_Nathan_Corbin_Plugin {
 	 * The code that runs during plugin deactivation.
 	 * This action is documented in includes/class-codeable-nathan-corbin-deactivator.php
 	 */
-	function deactivate_codeable_nathan_corbin() {
+	public function deactivate_codeable_nathan_corbin() {
 		require_once plugin_dir_path( __FILE__ ) . 'includes/class-codeable-nathan-corbin-deactivator.php';
 		Codeable_Nathan_Corbin_Deactivator::deactivate();
 	}
@@ -98,4 +97,3 @@ class Codeable_Nathan_Corbin_Plugin {
 
 // Start the plugin
 $nathan_corbin_plugin = new Codeable_Nathan_Corbin_Plugin();
-
